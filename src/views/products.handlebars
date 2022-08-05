@@ -1,0 +1,61 @@
+<div class="main">
+  <div class="bg-light">
+  <div class="container">
+    <h1 class="text-center bg-light">Add a new product</h1>
+  </div>
+  <form id="productForm">
+    <div class="mb-3">
+      <label for="name" class="form-label">Enter the product name:</label>
+      <input id="name" name="name" type="text" class="form-control" required/>
+    </div>
+    <div class="mb-3">
+      <label for="price" class="form-label">Enter the product price:</label>
+      <input id="price" name="price" type="number" class="form-control" required/>
+    </div>
+    <div class="mb-3">
+      <label for="formFile" class="form-label">Enter URL of the product image:</label>
+      <input class="form-control" type="text" id="img" name="img" required/>
+    </div>
+
+    <button id="submit" type="submit" class="btn btn-danger">Submit</button>
+  </form>
+</div>
+
+
+    <div class="products">
+      <div>
+        <h2 class="text-center">Products</h2>
+      </div>
+      <div class="listProducts">
+        <div class="container bg-white">
+          <ul class="list-group list-group-horizontal row">
+            <li class="list-group-item col-4 bg-danger text-center">Name:</li>
+            <li class="list-group-item col-4 bg-danger text-center">Price:</li>
+            <li class="list-group-item col-4 bg-danger text-center">Img:</li>
+          </ul>
+          <div id="products" class="text-center"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="chatSide text-center">
+    <div class="casing bg-secondary">
+      <div class="messages">
+        <div>
+          Your username:
+        <span class="header" id="header"></span>
+        </div>
+        <div class="chats box" id="chats"></div>
+
+        <div class="new-chat">
+          <input type="text" id="chatBox" />
+          <button id="send">Send</button>
+        </div>
+      </div>
+      <div class="home-btn">
+        <div class="hb-square"></div>
+      </div>
+    </div>
+  </div>
+</div>

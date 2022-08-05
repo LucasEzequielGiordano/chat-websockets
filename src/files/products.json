@@ -1,0 +1,20 @@
+[
+	{
+		"name": "rocklets",
+		"price": 200,
+		"img": "https://ardiaqa.vteximg.com.br/arquivos/ids/184769-1000-1000/CHOCOLATES-CONFITADOS-ROCKLETS-40GR.jpg?v=636742875024470000",
+		"id": 1
+	},
+	{
+		"name": "Chocolate Aguila",
+		"price": 500,
+		"img": "https://d26lpennugtm8s.cloudfront.net/stores/602/902/products/aguila-1501-8e62d083d1d46bfe6b15398959494502-640-0.png",
+		"id": 2
+	},
+	{
+		"name": "Cadbury Frutilla",
+		"price": 350,
+		"img": "https://th.bing.com/th/id/OIP.1j1j1HSeGhb2-s8SoEnJqAHaHa?pid=ImgDet&rs=1",
+		"id": 3
+	}
+]

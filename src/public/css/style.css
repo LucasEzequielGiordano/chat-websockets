@@ -1,0 +1,27 @@
+* {
+  list-style: none;
+}
+
+body {
+  margin: 0;
+}
+
+ul.nav {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+ul.row {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.messages {
+  color: #fff;
+}
